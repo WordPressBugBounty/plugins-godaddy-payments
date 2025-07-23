@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Poynt — a GoDaddy Brand for WooCommerce.
  *
@@ -9,7 +10,7 @@
 
 namespace GoDaddy\WooCommerce\Poynt\Support\Http;
 
-use SkyVerge\WooCommerce\PluginFramework\v5_12_1\SV_WC_API_Exception;
+use SkyVerge\WooCommerce\PluginFramework\v5_15_12\SV_WC_API_Exception;
 use WP_Error;
 
 defined('ABSPATH') or exit;

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Poynt — a GoDaddy Brand for WooCommerce.
  *
@@ -17,7 +18,7 @@ use GoDaddy\WooCommerce\Poynt\Helpers\ArrayHelper;
 use GoDaddy\WooCommerce\Poynt\Helpers\CredentialsHelper;
 use GoDaddy\WooCommerce\Poynt\Plugin;
 use GoDaddy\WooCommerce\Poynt\Support\Client;
-use SkyVerge\WooCommerce\PluginFramework\v5_12_1 as Framework;
+use SkyVerge\WooCommerce\PluginFramework\v5_15_12 as Framework;
 use stdClass;
 use WC_Customer;
 use WC_HTTPS;

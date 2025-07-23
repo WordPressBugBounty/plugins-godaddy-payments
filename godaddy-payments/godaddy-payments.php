@@ -5,7 +5,7 @@
  * Description: Securely accept credit/debit cards in your checkout, and keep more of your money with the industry's lowest fees—just 2.9% + 30¢ per online transaction. Get paid fast with deposits as soon as the next day.
  * Author: GoDaddy
  * Author URI: https://www.godaddy.com/
- * Version: 1.7.5
+ * Version: 1.7.6
  * Text Domain: godaddy-payments
  * Domain Path: /i18n/languages/
  * Requires at least: 5.6
@@ -34,7 +34,7 @@ class GD_Poynt_For_WooCommerce_Loader
     const MINIMUM_WC_VERSION = '4.0';
 
     /** SkyVerge plugin framework version used by this plugin */
-    const FRAMEWORK_VERSION = '5.12.1';
+    const FRAMEWORK_VERSION = '5.15.12';
 
     /** the plugin name, for displaying notices */
     const PLUGIN_NAME = 'Poynt &mdash; a GoDaddy Brand for WooCommerce';

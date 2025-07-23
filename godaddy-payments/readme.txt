@@ -2,9 +2,9 @@
 Contributors: godaddy
 Tags: credit card, payments, checkout, e-commerce, ecommerce, woo, woocommerce
 Requires at least: 5.6
-Tested up to: 6.5.2
+Tested up to: 6.8.2
 Requires PHP: 7.4
-Stable tag: 1.7.5
+Stable tag: 1.7.6
 License: GPL-2.0
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -18,8 +18,8 @@ Using GoDaddy Payments to process your WooCommerce store’s credit card payment
 
 * **Start taking secure payments in minutes** with a quick & easy setup, no setup fees and no contracts.
 * **Get paid faster** - receiving your funds as early as the next business day.
-* **Simple transaction fee** of 2.9% + 30¢ per online transaction in the U.S and 2.7% + 0¢ in Canada. 
-* **Reduce your PCI compliance responsibility.** GoDaddy Payments uses hosted iframes to ensure payment data never touches and is never stored on your site’s servers. 
+* **Simple transaction fee** of 2.9% + 30¢ per online transaction in the U.S and 2.7% + 0¢ in Canada.
+* **Reduce your PCI compliance responsibility.** GoDaddy Payments uses hosted iframes to ensure payment data never touches and is never stored on your site’s servers.
 * **Use any major credit or debit card** including Visa®, MasterCard®, American Express®, Discover®, Diner’s Club®, JCB®, and UnionPay®.
 * **Complete transactions quickly** by authorizing charges at checkout, then [capturing them later](https://docs.woocommerce.com/document/advanced-payment-gateway-features/#capture-charges) through the WooCommerce Orders page.
 * **Enjoy faster, easier order management**, by processing refunds and voids directly through WooCommerce – with no need to log into your merchant account.
@@ -80,6 +80,11 @@ Having trouble? Follow these steps to make sure everything is setup correctly be
 First, please review this documentation to see if it addresses your question. If not, please get in touch with us through the **Get Help** link on the **WooCommerce > Settings > Payments > Credit Card** page.
 
 == Changelog ==
+
+= 2025.07.23 - version 1.7.6 =
+ * Fix - Checkout blocks warning was appearing unexpectedly when editing a block checkout page
+ * Fix - "Translations loaded too early" error
+ * Misc - Update the SV Framework to v5.15.12
 
 = 2024.05.06 - version 1.7.5 =
  * Tweak - Only fail orders with a postal code AVS mismatch

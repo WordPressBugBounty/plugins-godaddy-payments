@@ -1,25 +1,25 @@
-# Copyright (C) 2024 GoDaddy
+# Copyright (C) 2025 GoDaddy
 # This file is distributed under the GPL-2.0.
 msgid ""
 msgstr ""
-"Project-Id-Version: GoDaddy Payments 1.7.5\n"
+"Project-Id-Version: GoDaddy Payments 1.7.6\n"
 "Report-Msgid-Bugs-To: https://woocommerce.com/my-account/marketplace-ticket-form/\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-05-06T23:34:30+00:00\n"
+"POT-Creation-Date: 2025-07-23T13:05:39+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.10.0\n"
+"X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: godaddy-payments\n"
 
 #. Plugin Name of the plugin
 #: godaddy-payments.php
-#: src/Frontend/Admin/Notices.php:132
-#: src/Frontend/Admin/Notices.php:162
-#: src/Gateways/CreditCardGateway.php:89
-#: src/Plugin.php:233
+#: src/Frontend/Admin/Notices.php:133
+#: src/Frontend/Admin/Notices.php:163
+#: src/Gateways/CreditCardGateway.php:90
+#: src/Plugin.php:234
 msgid "GoDaddy Payments"
 msgstr ""
 
@@ -43,11 +43,11 @@ msgstr ""
 msgid "https://www.godaddy.com/"
 msgstr ""
 
-#: src/API.php:126
+#: src/API.php:127
 msgid "Your transaction can't be completed due to an invalid country code in the checkout form. Please contact the store owner to place your order."
 msgstr ""
 
-#: src/API/Cards/TokenizeResponse.php:68
+#: src/API/Cards/TokenizeResponse.php:69
 msgid "Your billing address doesn't match your payment card information. Please update the billing address to submit your order."
 msgstr ""
 
@@ -67,193 +67,193 @@ msgstr ""
 msgid "Order ready for pickup!"
 msgstr ""
 
-#: src/Frontend/Admin/Notices.php:119
+#: src/Frontend/Admin/Notices.php:120
 msgid "Set up GoDaddy Payments in minutes to securely accept credit and debit card transactions in your WooCommerce checkout."
 msgstr ""
 
-#: src/Frontend/Admin/Notices.php:120
-#: src/Frontend/Admin/Notices.php:134
-#: src/Frontend/Admin/Notices.php:164
+#: src/Frontend/Admin/Notices.php:121
+#: src/Frontend/Admin/Notices.php:135
+#: src/Frontend/Admin/Notices.php:165
 msgid "Set up Godaddy Payments"
 msgstr ""
 
-#: src/Frontend/Admin/Notices.php:133
+#: src/Frontend/Admin/Notices.php:134
 msgid "Set up GoDaddy Payments in minutes to securely accept payments via Pay in Person terminal."
 msgstr ""
 
-#: src/Frontend/Admin/Notices.php:163
+#: src/Frontend/Admin/Notices.php:164
 msgid "Set up GoDaddy Payments - Pay in Store to accept payments with POS terminal."
 msgstr ""
 
-#: src/Frontend/Admin/Notices.php:190
+#: src/Frontend/Admin/Notices.php:191
 msgid "GoDaddy Payments has declined a transaction due to an invalid country code submitted in checkout. Please update your checkout to use ISO 3166-1 alpha-2 or alpha-3 standard country codes (example: US or USA) to prevent declines."
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:94
+#: src/Gateways/CreditCardGateway.php:95
 msgctxt "Gateway environment"
 msgid "Production"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:95
+#: src/Gateways/CreditCardGateway.php:96
 msgctxt "Gateway environment"
 msgid "Staging"
 msgstr ""
 
 #. translators: Context: pricing (e.g.: 2.7% + 0¢) formatted using HTML entities - only adjust formatting if necessary for the given locale
-#: src/Gateways/CreditCardGateway.php:129
-#: src/Plugin.php:783
+#: src/Gateways/CreditCardGateway.php:130
+#: src/Plugin.php:784
 msgid "2.7&#37; + 0&#162;"
 msgstr ""
 
 #. translators: Context: pricing (e.g.: 2.9% + 30¢) formatted using HTML entities - only adjust formatting if necessary for the given locale
-#: src/Gateways/CreditCardGateway.php:133
-#: src/Plugin.php:787
+#: src/Gateways/CreditCardGateway.php:134
+#: src/Plugin.php:788
 msgid "2.9&#37; + 30&#162;"
 msgstr ""
 
 #. translators: Placeholders: %1$s - pricing, %2$s - <a> tag, %3$s - </a> tag
-#: src/Gateways/CreditCardGateway.php:138
+#: src/Gateways/CreditCardGateway.php:139
 msgid "Securely accept credit/debit cards in your checkout, and keep more of your money with the industry's lowest fees—just %1$s per online transaction. Get paid fast with deposits as soon as the next day. %2$sGoDaddy Payments Terms apply%3$s."
 msgstr ""
 
 #. translators: Placeholders: %1$s - payment gateway title, %2$s - a monetary amount. Void as in to void an order.
-#: src/Gateways/CreditCardGateway.php:161
+#: src/Gateways/CreditCardGateway.php:162
 msgid "%1$s Void in the amount of %2$s approved."
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:170
+#: src/Gateways/CreditCardGateway.php:171
 msgid "(Transaction ID %s)"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:217
+#: src/Gateways/CreditCardGateway.php:218
 msgid "invalid country code"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:316
+#: src/Gateways/CreditCardGateway.php:317
 msgid "GoDaddy Payments payment in the amount of %s approved. "
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:320
+#: src/Gateways/CreditCardGateway.php:321
 msgid "Transaction ID: %s."
 msgstr ""
 
 #. translators: Placeholder: %1$s - last four digits of an account number (e.g. credit card)
-#: src/Gateways/CreditCardGateway.php:332
+#: src/Gateways/CreditCardGateway.php:333
 msgid "ending in %1$s"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:338
+#: src/Gateways/CreditCardGateway.php:339
 msgid "(expires %s)"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:342
+#: src/Gateways/CreditCardGateway.php:343
 msgid "(Authorization only transaction)"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:955
+#: src/Gateways/CreditCardGateway.php:956
 msgid "Enable / Disable"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:956
+#: src/Gateways/CreditCardGateway.php:957
 msgid "Enable this gateway"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:957
+#: src/Gateways/CreditCardGateway.php:958
 msgid "Enable to add the payment method to your checkout."
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:962
+#: src/Gateways/CreditCardGateway.php:963
 msgid "Title in Checkout"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:964
+#: src/Gateways/CreditCardGateway.php:965
 #: src/Gateways/PayInPersonGateway.php:340
 msgid "Payment method title that the customer will see during checkout."
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:968
+#: src/Gateways/CreditCardGateway.php:969
 msgid "Description in Checkout"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:970
+#: src/Gateways/CreditCardGateway.php:971
 msgid "Payment method description that the customer will see during checkout."
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:974
+#: src/Gateways/CreditCardGateway.php:975
 msgid "Accepted Card Logos"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:976
+#: src/Gateways/CreditCardGateway.php:977
 msgid "These are the card logos that are displayed to customers as accepted during checkout."
 msgstr ""
 
 #. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
-#: src/Gateways/CreditCardGateway.php:979
+#: src/Gateways/CreditCardGateway.php:980
 msgid "This setting %1$sdoes not%2$s change which card types the gateway will accept."
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:989
+#: src/Gateways/CreditCardGateway.php:990
 msgid "Saved Cards"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:990
+#: src/Gateways/CreditCardGateway.php:991
 msgid "Allow customers to securely save their payment details for future checkout."
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:996
-#: src/Gateways/CreditCardGateway.php:1007
+#: src/Gateways/CreditCardGateway.php:997
+#: src/Gateways/CreditCardGateway.php:1008
 msgid "Connection settings"
 msgstr ""
 
 #. translators: Placeholders: %1$s - opening <a> HTML link tag, %2$s - closing </a> HTML link tag, %3$s - opening <a> HTML link tag, %4$s - closing </a> HTML link tag
-#: src/Gateways/CreditCardGateway.php:999
-#: src/Gateways/CreditCardGateway.php:1010
+#: src/Gateways/CreditCardGateway.php:1000
+#: src/Gateways/CreditCardGateway.php:1011
 msgid "To connect to GoDaddy Payments, %1$screate a GoDaddy Payments account%2$s. Then copy your Application ID and Private key from the Business Settings under Advanced Tools in your Payments dashboard and paste them in the fields below. %3$sLearn more%4$s"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:1017
+#: src/Gateways/CreditCardGateway.php:1018
 msgid "Application ID"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:1019
+#: src/Gateways/CreditCardGateway.php:1020
 msgid "Enter your Application ID"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:1023
+#: src/Gateways/CreditCardGateway.php:1024
 msgid "Private Key"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:1025
+#: src/Gateways/CreditCardGateway.php:1026
 msgid "Enter your Private Key"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:1029
+#: src/Gateways/CreditCardGateway.php:1030
 msgid "Staging Application ID"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:1031
+#: src/Gateways/CreditCardGateway.php:1032
 msgid "Enter your staging Application ID"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:1035
+#: src/Gateways/CreditCardGateway.php:1036
 msgid "Staging Private Key"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:1037
+#: src/Gateways/CreditCardGateway.php:1038
 msgid "Enter your staging Private Key"
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:1273
+#: src/Gateways/CreditCardGateway.php:1274
 msgctxt "Checkout error"
 msgid "An error occurred, please try again or try an alternate form of payment."
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:1277
+#: src/Gateways/CreditCardGateway.php:1278
 msgctxt "Credit or debit card"
 msgid "Missing card details."
 msgstr ""
 
-#: src/Gateways/CreditCardGateway.php:1281
+#: src/Gateways/CreditCardGateway.php:1282
 msgctxt "Checkout error"
 msgid "Missing billing details."
 msgstr ""
@@ -379,12 +379,12 @@ msgstr ""
 msgid "We accept major credit/debit cards and cash."
 msgstr ""
 
-#: src/Lifecycle.php:121
+#: src/Lifecycle.php:122
 #: assets/js/blocks/wc-poynt-checkout-block.js:1
 msgid "Credit Card"
 msgstr ""
 
-#: src/Lifecycle.php:122
+#: src/Lifecycle.php:123
 msgid "Allow customers to securely pay using their credit cards with Poynt."
 msgstr ""
 
@@ -420,62 +420,62 @@ msgstr ""
 msgid "Transaction cannot be captured"
 msgstr ""
 
-#: src/Plugin.php:321
-#: src/Plugin.php:328
+#: src/Plugin.php:322
+#: src/Plugin.php:329
 msgctxt "Payment gateway title"
 msgid "Configure %s"
 msgstr ""
 
 #. translators: Placeholders: %1$s - opening <a> HTML link tag, %2$s - closing </a> HTML link tag
-#: src/Plugin.php:399
+#: src/Plugin.php:400
 msgid "Migration successful! WooCommerce Poynt Collect Payment Gateway was deactivated, and Poynt &mdash; a GoDaddy Brand for WooCommerce has been %1$sconfigured with your previous settings%2$s."
 msgstr ""
 
 #. translators: Placeholders: %1$s - list of supported currencies, %2$s - store country, %3$s - opening <a> HTML link tag, %4$s - closing </a> HTML link tag, %5$s - currency code
-#: src/Plugin.php:640
+#: src/Plugin.php:641
 msgid "GoDaddy Payments requires %1$s transactions for %2$s businesses. Please %3$schange your Currency%4$s to %5$s in order to use the payment method."
 msgstr ""
 
 #. translators: Placeholders: %1$s - list of supported currencies, %2$s - opening <a> HTML link tag, %3$s - closing </a> HTML link tag
-#: src/Plugin.php:682
+#: src/Plugin.php:683
 msgid "GoDaddy Payments requires %1$s transactions. Please %2$schange your Currency%3$s in order to use the payment method."
 msgstr ""
 
 #. translators: Placeholders: %1$s - list of supported countries, %2$s - opening <a> HTML link tag, %3$s - closing </a> HTML link tag, %4$s - list of supported countries %
-#: src/Plugin.php:724
+#: src/Plugin.php:725
 msgid "GoDaddy Payments is available for %1$s-based businesses. Please %2$supdate your Store Address%3$s if you are in the %4$s."
 msgstr ""
 
 #. translators: Placeholders: %1$s - Plugin name, %2$s - country based pricing, %3$s - opening <a> HTML link tag, %4$s - closing </a> HTML link tag
-#: src/Plugin.php:757
+#: src/Plugin.php:758
 msgid "Set up %1$s for WooCommerce to securely accept credit and debit card payments in your checkout, and keep more of your money with the industry's lowest fees - just %2$s per online transaction. %3$sSet up now%4$s"
 msgstr ""
 
-#: src/REST/Controllers/SupportController.php:64
+#: src/REST/Controllers/SupportController.php:65
 msgid "Whether to create a new support user."
 msgstr ""
 
-#: src/REST/Controllers/SupportController.php:70
+#: src/REST/Controllers/SupportController.php:71
 msgid "The email address to which the request should be attributed."
 msgstr ""
 
-#: src/REST/Controllers/SupportController.php:76
+#: src/REST/Controllers/SupportController.php:77
 msgid "The submitted message."
 msgstr ""
 
-#: src/REST/Controllers/SupportController.php:82
+#: src/REST/Controllers/SupportController.php:83
 msgid "The submitted reason slug."
 msgstr ""
 
-#: src/REST/Controllers/SupportController.php:88
+#: src/REST/Controllers/SupportController.php:89
 msgid "The submitted subject."
 msgstr ""
 
-#: src/REST/Controllers/SupportController.php:140
+#: src/REST/Controllers/SupportController.php:141
 msgid "An error occurred."
 msgstr ""
 
-#: src/Shipping/CoreShippingMethods.php:114
+#: src/Shipping/CoreShippingMethods.php:115
 msgid "Order Instructions:"
 msgstr ""
 
@@ -573,64 +573,64 @@ msgstr ""
 msgid "Pickup Instructions"
 msgstr ""
 
-#: src/Support/Http/Adapters/RequestAdapter.php:59
+#: src/Support/Http/Adapters/RequestAdapter.php:60
 msgid "At least one valid email address should be specified."
 msgstr ""
 
-#: src/Support/Http/Request.php:84
+#: src/Support/Http/Request.php:85
 msgid "Invalid response."
 msgstr ""
 
-#: src/Sync/Jobs/PoyntTransactionSynchronizer.php:238
-#: src/Sync/Jobs/PoyntTransactionSynchronizer.php:243
+#: src/Sync/Jobs/PoyntTransactionSynchronizer.php:239
+#: src/Sync/Jobs/PoyntTransactionSynchronizer.php:244
 msgid "Paid in WooCommerce checkout by \"%s\""
 msgstr ""
 
 #. translators: Placeholder: %1$s: payment gateway name
-#: src/Sync/PoyntOrderSynchronizer.php:447
+#: src/Sync/PoyntOrderSynchronizer.php:448
 msgid "Transaction refunded by %1$s from WooCommerce."
 msgstr ""
 
-#: src/Sync/PoyntOrderSynchronizer.php:449
+#: src/Sync/PoyntOrderSynchronizer.php:450
 msgid "Transaction manually refunded from WooCommerce."
 msgstr ""
 
 #. translators: Placeholders: %1$s - date, %2$s - time
-#: src/Webhooks/PoyntOrderWebhookHandler.php:175
+#: src/Webhooks/PoyntOrderWebhookHandler.php:176
 msgid "Order marked ready on terminal on %1$s at %2$s"
 msgstr ""
 
-#: src/Webhooks/PoyntTransactionWebhookHandler.php:320
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:321
 msgid "From GoDaddy Payments Smart Terminal. Order fully refunded."
 msgstr ""
 
-#: src/Webhooks/PoyntTransactionWebhookHandler.php:323
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:324
 msgid "From GoDaddy Payments Smart Terminal. Order partially refunded."
 msgstr ""
 
-#: src/Webhooks/PoyntTransactionWebhookHandler.php:392
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:393
 msgid "GoDaddy Payments sale transaction (ID %s) reversed by void transaction (ID %s) via Smart Terminal."
 msgstr ""
 
-#: src/Webhooks/PoyntTransactionWebhookHandler.php:468
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:469
 msgid "GoDaddy Payments refund transaction (ID %s) reversed by void transaction (ID %s) via Smart Terminal."
 msgstr ""
 
 #. translators: Placeholder: %s - error message
-#: src/Webhooks/PoyntTransactionWebhookHandler.php:488
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:489
 msgid "Could not create refund: %s"
 msgstr ""
 
-#: src/Webhooks/PoyntTransactionWebhookHandler.php:698
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:699
 msgid "Tip"
 msgstr ""
 
-#: src/Webhooks/PoyntTransactionWebhookHandler.php:704
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:705
 msgid "Cashback"
 msgstr ""
 
 #. translators: Placeholders: %1$s - item fee name, %2$s - item fee amount
-#: src/Webhooks/PoyntTransactionWebhookHandler.php:735
+#: src/Webhooks/PoyntTransactionWebhookHandler.php:736
 msgid "%1$s amount of %2$s added to order by GoDaddy Payments Smart Terminal"
 msgstr ""
 

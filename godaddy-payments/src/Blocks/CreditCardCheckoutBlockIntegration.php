@@ -4,7 +4,7 @@ namespace GoDaddy\WooCommerce\Poynt\Blocks;
 
 use GoDaddy\WooCommerce\Poynt\Gateways\CreditCardGateway;
 use GoDaddy\WooCommerce\Poynt\Plugin;
-use SkyVerge\WooCommerce\PluginFramework\v5_12_1 as Framework;
+use SkyVerge\WooCommerce\PluginFramework\v5_15_12 as Framework;
 
 /**
  * GoDaddy Payments checkout block integration for the {@see CreditCardGateway}.
@@ -27,8 +27,23 @@ class CreditCardCheckoutBlockIntegration extends Framework\Payment_Gateway\Block
     public function __construct(Framework\SV_WC_Payment_Gateway_Plugin $plugin, Framework\SV_WC_Payment_Gateway $gateway)
     {
         parent::__construct($plugin, $gateway);
+    }
+
+    /**
+     * This is overridden so that we can enqueue the Poynt Collect script early enough for it to be recognized when our
+     * block script is also enqueued ({@see Framework\Blocks\Traits\Block_Integration_Trait::initialize()).
+     *
+     * {@inheritDoc}
+     */
+    public function initialize() : void
+    {
+        if ($environment = Plugin::instance()->get_gateway(Plugin::CREDIT_CARD_GATEWAY_ID)->get_environment()) {
+            Plugin::instance()->registerPoyntCollect($environment);
+        }
 
         $this->add_main_script_dependency('poynt-collect');
+
+        parent::initialize();
     }
 
     /**

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Poynt — a GoDaddy Brand for WooCommerce.
  *
@@ -15,7 +16,7 @@ use GoDaddy\WooCommerce\Poynt\Helpers\CommonHelper;
 use GoDaddy\WooCommerce\Poynt\Helpers\PoyntHelper;
 use GoDaddy\WooCommerce\Poynt\Helpers\WCHelper;
 use GoDaddy\WooCommerce\Poynt\Plugin;
-use SkyVerge\WooCommerce\PluginFramework\v5_12_1\SV_WC_Admin_Notice_Handler;
+use SkyVerge\WooCommerce\PluginFramework\v5_15_12\SV_WC_Admin_Notice_Handler;
 use WC_Shipping_Zones;
 
 /**

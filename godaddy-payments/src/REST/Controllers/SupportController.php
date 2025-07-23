@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Poynt — a GoDaddy Brand for WooCommerce.
  *
@@ -13,7 +14,7 @@ use Exception;
 use GoDaddy\WooCommerce\Poynt\Support;
 use GoDaddy\WooCommerce\Poynt\Support\Http\Adapters\RequestAdapter;
 use GoDaddy\WooCommerce\Poynt\Support\Http\Request as SupportRequest;
-use SkyVerge\WooCommerce\PluginFramework\v5_12_1\SV_WC_Plugin_Exception;
+use SkyVerge\WooCommerce\PluginFramework\v5_15_12\SV_WC_Plugin_Exception;
 use WP_Error;
 use WP_REST_Request;
 use WP_REST_Response;

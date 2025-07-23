@@ -6,7 +6,7 @@ use Exception;
 use GoDaddy\WooCommerce\Poynt\Gateways\PayInPersonGateway;
 use GoDaddy\WooCommerce\Poynt\Helpers\ArrayHelper;
 use GoDaddy\WooCommerce\Poynt\Plugin;
-use SkyVerge\WooCommerce\PluginFramework\v5_12_1 as Framework;
+use SkyVerge\WooCommerce\PluginFramework\v5_15_12 as Framework;
 
 /**
  * GoDaddy Payments checkout block integration for the {@see PayInPersonGateway}.

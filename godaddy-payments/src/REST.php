@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Poynt — a GoDaddy Brand for WooCommerce.
  *
@@ -10,7 +11,7 @@
 namespace GoDaddy\WooCommerce\Poynt;
 
 use GoDaddy\WooCommerce\Poynt\REST\Controllers\SupportController;
-use SkyVerge\WooCommerce\PluginFramework\v5_12_1\Payment_Gateway\REST_API;
+use SkyVerge\WooCommerce\PluginFramework\v5_15_12\Payment_Gateway\REST_API;
 
 defined('ABSPATH') or exit;
 

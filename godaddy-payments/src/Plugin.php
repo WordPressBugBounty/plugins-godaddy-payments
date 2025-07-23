@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Poynt — a GoDaddy Brand for WooCommerce.
  *
@@ -25,7 +26,7 @@ use GoDaddy\WooCommerce\Poynt\Sync\Jobs\ActiveSmartTerminalDetector;
 use GoDaddy\WooCommerce\Poynt\Sync\Jobs\PoyntTransactionSynchronizer;
 use GoDaddy\WooCommerce\Poynt\Sync\PoyntOrderSynchronizer;
 use GoDaddy\WooCommerce\Poynt\Webhooks\PoyntWebhooksHandler;
-use SkyVerge\WooCommerce\PluginFramework\v5_12_1 as Framework;
+use SkyVerge\WooCommerce\PluginFramework\v5_15_12 as Framework;
 
 defined('ABSPATH') or exit;
 
@@ -39,7 +40,7 @@ defined('ABSPATH') or exit;
 class Plugin extends Framework\SV_WC_Payment_Gateway_Plugin
 {
     /** the plugin's version number */
-    const VERSION = '1.7.5';
+    const VERSION = '1.7.6';
 
     /** the plugin's gateway id */
     const PLUGIN_ID = 'poynt';

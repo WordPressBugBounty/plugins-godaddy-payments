@@ -6,6 +6,7 @@ $vendorDir = dirname(__DIR__);
 $baseDir = dirname($vendorDir);
 
 return array(
+    'SkyVerge\\WooCommerce\\PluginFramework\\v5_15_12\\' => array($vendorDir . '/skyverge/wc-plugin-framework/woocommerce'),
     'GoDaddy\\WooCommerce\\Poynt\\' => array($baseDir . '/src'),
     'Firebase\\JWT\\' => array($vendorDir . '/firebase/php-jwt/src'),
 );

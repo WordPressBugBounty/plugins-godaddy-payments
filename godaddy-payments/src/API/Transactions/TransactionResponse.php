@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Poynt — a GoDaddy Brand for WooCommerce.
  *
@@ -13,7 +14,7 @@ use GoDaddy\WooCommerce\Poynt\API\Responses\AbstractResponse;
 use GoDaddy\WooCommerce\Poynt\Helpers\ArrayHelper;
 use GoDaddy\WooCommerce\Poynt\Helpers\MoneyHelper;
 use GoDaddy\WooCommerce\Poynt\Webhooks\PoyntTransactionWebhookHandler;
-use SkyVerge\WooCommerce\PluginFramework\v5_12_1 as Framework;
+use SkyVerge\WooCommerce\PluginFramework\v5_15_12 as Framework;
 
 defined('ABSPATH') or exit;
 

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Poynt — a GoDaddy Brand for WooCommerce.
  *
@@ -12,7 +13,7 @@ namespace GoDaddy\WooCommerce\Poynt\Helpers;
 use Exception;
 use GoDaddy\WooCommerce\Poynt\API\GatewayAPI;
 use GoDaddy\WooCommerce\Poynt\Plugin;
-use SkyVerge\WooCommerce\PluginFramework\v5_12_1 as Framework;
+use SkyVerge\WooCommerce\PluginFramework\v5_15_12 as Framework;
 use stdClass;
 use WC_Order;
 

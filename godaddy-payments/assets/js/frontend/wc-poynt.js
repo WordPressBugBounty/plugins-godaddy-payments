@@ -18,7 +18,7 @@ jQuery( ( $ ) => {
 	 *
 	 * @since 1.0.0
 	 */
-	window.WC_Poynt_Payment_Form_Handler = class WC_Poynt_Payment_Form_Handler extends SV_WC_Payment_Form_Handler_v5_12_1 {
+	window.WC_Poynt_Payment_Form_Handler = class WC_Poynt_Payment_Form_Handler extends SV_WC_Payment_Form_Handler_v5_15_12 {
 
 		/**
 		 * Instantiates the payment form handler.

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Poynt — a GoDaddy Brand for WooCommerce.
  *
@@ -11,7 +12,7 @@ namespace GoDaddy\WooCommerce\Poynt\Shipping\LocalPickup;
 
 use Exception;
 use GoDaddy\WooCommerce\Poynt\Emails\ReadyForPickupEmail;
-use SkyVerge\WooCommerce\PluginFramework\v5_12_1\SV_WC_Helper;
+use SkyVerge\WooCommerce\PluginFramework\v5_15_12\SV_WC_Helper;
 
 class Emails
 {

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Poynt — a GoDaddy Brand for WooCommerce.
  *
@@ -9,7 +10,7 @@
 
 namespace GoDaddy\WooCommerce\Poynt\Frontend\MyAccount;
 
-use SkyVerge\WooCommerce\PluginFramework\v5_12_1 as Framework;
+use SkyVerge\WooCommerce\PluginFramework\v5_15_12 as Framework;
 
 defined('ABSPATH') or exit;
 
@@ -32,7 +33,7 @@ class PaymentMethods extends Framework\SV_WC_Payment_Gateway_My_Payment_Methods
         parent::maybe_enqueue_styles_scripts();
 
         if ($this->has_tokens) {
-            wp_enqueue_script('wc-poynt-collect-payment-methods', $this->get_plugin()->get_plugin_url().'/assets/js/frontend/wc-poynt-collect-payment-methods.min.js', ['jquery', 'sv-wc-payment-gateway-my-payment-methods-v5_12_1'], $this->get_plugin()->get_version());
+            wp_enqueue_script('wc-poynt-collect-payment-methods', $this->get_plugin()->get_plugin_url().'/assets/js/frontend/wc-poynt-collect-payment-methods.min.js', ['jquery', 'sv-wc-payment-gateway-my-payment-methods-v5_15_12'], $this->get_plugin()->get_version());
         }
     }
 

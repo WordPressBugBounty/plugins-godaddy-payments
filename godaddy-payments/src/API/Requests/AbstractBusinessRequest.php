@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Poynt — a GoDaddy Brand for WooCommerce.
  *
@@ -10,7 +11,7 @@
 namespace GoDaddy\WooCommerce\Poynt\API\Requests;
 
 use GoDaddy\WooCommerce\Poynt\Helpers\WPNUXHelper;
-use SkyVerge\WooCommerce\PluginFramework\v5_12_1 as Framework;
+use SkyVerge\WooCommerce\PluginFramework\v5_15_12 as Framework;
 use WC_Order;
 
 defined('ABSPATH') or exit;
