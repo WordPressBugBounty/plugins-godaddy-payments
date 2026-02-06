@@ -40,7 +40,7 @@ defined('ABSPATH') or exit;
 class Plugin extends Framework\SV_WC_Payment_Gateway_Plugin
 {
     /** the plugin's version number */
-    const VERSION = '1.7.6';
+    const VERSION = '1.7.7';
 
     /** the plugin's gateway id */
     const PLUGIN_ID = 'poynt';
@@ -478,9 +478,9 @@ class Plugin extends Framework\SV_WC_Payment_Gateway_Plugin
     {
         switch ($environment) {
             case Plugin::ENVIRONMENT_PRODUCTION:
-                return 'https://cdn.poynt.net/collect.js';
+                return 'https://collect.commerce.godaddy.com/sdk.js';
             case Plugin::ENVIRONMENT_STAGING:
-                return 'https://cdn.poynt.net/ote/collect-ote.js';
+                return 'https://collect.commerce.ote-godaddy.com/sdk.js';
             default:
                 return null;
         }

@@ -5,7 +5,7 @@
  * Description: Securely accept credit/debit cards in your checkout, and keep more of your money with the industry's lowest fees—just 2.9% + 30¢ per online transaction. Get paid fast with deposits as soon as the next day.
  * Author: GoDaddy
  * Author URI: https://www.godaddy.com/
- * Version: 1.7.6
+ * Version: 1.7.7
  * Text Domain: godaddy-payments
  * Domain Path: /i18n/languages/
  * Requires at least: 5.6
@@ -305,7 +305,7 @@ class GD_Poynt_For_WooCommerce_Loader
     }
 
     /**
-     * Displays any admin notices added with {@see \GD_Poynt_For_WooCommerce_Loader::addAdminNotice()}.
+     * Displays any admin notices added with {@see GD_Poynt_For_WooCommerce_Loader::addAdminNotice()}.
      *
      * @internal
      *

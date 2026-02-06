@@ -3,7 +3,7 @@
         'name' => 'godaddy/godaddy-payments',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '3e56e7541e7474caa23c60d36889432f86b6973a',
+        'reference' => '854343742cbbe99eca5efcc017c17a73e031d411',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -22,7 +22,7 @@
         'godaddy/godaddy-payments' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '3e56e7541e7474caa23c60d36889432f86b6973a',
+            'reference' => '854343742cbbe99eca5efcc017c17a73e031d411',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

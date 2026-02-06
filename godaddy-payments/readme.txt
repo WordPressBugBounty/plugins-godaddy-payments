@@ -2,9 +2,9 @@
 Contributors: godaddy
 Tags: credit card, payments, checkout, e-commerce, ecommerce, woo, woocommerce
 Requires at least: 5.6
-Tested up to: 6.8.2
+Tested up to: 6.9
 Requires PHP: 7.4
-Stable tag: 1.7.6
+Stable tag: 1.7.7
 License: GPL-2.0
 License URI: https://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
@@ -80,6 +80,9 @@ Having trouble? Follow these steps to make sure everything is setup correctly be
 First, please review this documentation to see if it addresses your question. If not, please get in touch with us through the **Get Help** link on the **WooCommerce > Settings > Payments > Credit Card** page.
 
 == Changelog ==
+
+= 2026.01.26 - version 1.7.7 =
+ * Misc - Switch to the new collectjs urls for godaddy payments
 
 = 2025.07.23 - version 1.7.6 =
  * Fix - Checkout blocks warning was appearing unexpectedly when editing a block checkout page
